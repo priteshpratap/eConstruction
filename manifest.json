@@ -35,7 +35,7 @@
 	"sap.ui5": {
 		"flexEnabled": false,
 		"rootView": {
-			"viewName": "VishwakarmaMart.view.S1",
+			"viewName": "VishwakarmaMart.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "View1"
