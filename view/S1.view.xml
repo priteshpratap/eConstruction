@@ -1,0 +1,189 @@
+<mvc:View controllerName="VishwakarmaMart.controller.S1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:tnt="sap.tnt" xmlns:l="sap.ui.layout">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" class="sapUiContentPadding">
+					<tnt:ToolHeader>
+						<Button icon="sap-icon://menu2" type="Transparent" press="onInitalBtnPress"/>
+						<Image src="test-resources/sap/tnt/images/SAP_Logo.png"/>
+						<Text text="eConstruction" wrapping="false"/>
+						<ToolbarSpacer/>
+						<Button icon="sap-icon://bell" type="Transparent"/>
+						<Avatar src="test-resources/sap/tnt/images/Woman_avatar_01.png" displaySize="XS" press=".onAvatarPressed"/>
+						<Button icon="sap-icon://grid" type="Transparent"/>
+					</tnt:ToolHeader>
+					<Text/>
+					<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+						
+						<l:Grid defaultSpan="XL3 L3 M6 S6">
+							<l:content>
+								<VBox alignItems="Center">
+									<Avatar src="{
+											path: 'view>/welcomeCarouselShipping',
+											formatter : '.formatter.pictureUrl'
+											}" 
+											displaySize="XL" 
+											displayShape="Circle">
+										<detailBox>
+											<LightBox>
+												<LightBoxItem imageSrc="{
+											path: 'view>/welcomeCarouselShipping',
+											formatter : '.formatter.pictureUrl'
+											}" alt="Michael Adams" title="Itta - Clay Bricks"
+													subtitle=""></LightBoxItem>
+											</LightBox>
+										</detailBox>
+									</Avatar>
+									<Text textAlign="Center" text="Itta - Clay Bricks" class="sapUiSmallMarginTop"/>
+								</VBox>
+								
+								<VBox alignItems="Center">
+									<Avatar src="{
+											path: 'view>/Ballu',
+											formatter : '.formatter.pictureUrl'
+											}" 
+											displaySize="XL" 
+											displayShape="Circle">
+										<detailBox>
+											<LightBox>
+												<LightBoxItem imageSrc="{
+											path: 'view>/Ballu',
+											formatter : '.formatter.pictureUrl'
+											}" alt="Michael Adams" title="Balu - Sand"
+													subtitle=""></LightBoxItem>
+											</LightBox>
+										</detailBox>
+									</Avatar>
+									<Text textAlign="Center" text="Balu - Sand" class="sapUiSmallMarginTop"/>
+								</VBox>
+								
+								<VBox alignItems="Center">
+									<Avatar src="{
+											path: 'view>/cement',
+											formatter : '.formatter.pictureUrl'
+											}" 
+											displaySize="XL" 
+											displayShape="Circle">
+										<detailBox>
+											<LightBox>
+												<LightBoxItem imageSrc="{
+											path: 'view>/cement',
+											formatter : '.formatter.pictureUrl'
+											}" alt="Michael Adams" title="Cement"
+													subtitle=""></LightBoxItem>
+											</LightBox>
+										</detailBox>
+									</Avatar>
+									<Text textAlign="Center" text="Cement" class="sapUiSmallMarginTop"/>
+								</VBox>
+								
+								<VBox alignItems="Center">
+									<Avatar src="{
+											path: 'view>/gitti',
+											formatter : '.formatter.pictureUrl'
+											}" 
+											displaySize="XL" 
+											displayShape="Circle">
+										<detailBox>
+											<LightBox>
+												<LightBoxItem imageSrc="{
+											path: 'view>/gitti',
+											formatter : '.formatter.pictureUrl'
+											}" alt="Michael Adams" title="Gitti - Stone chips"
+													subtitle=""></LightBoxItem>
+											</LightBox>
+										</detailBox>
+									</Avatar>
+									<Text textAlign="Center" text="Gitti - Stone chips" class="sapUiSmallMarginTop"/>
+								</VBox>
+								
+								<VBox alignItems="Center">
+									<Avatar src="{
+											path: 'view>/IronRod',
+											formatter : '.formatter.pictureUrl'
+											}" 
+											displaySize="XL" 
+											displayShape="Circle">
+										<detailBox>
+											<LightBox>
+												<LightBoxItem imageSrc="{
+											path: 'view>/IronRod',
+											formatter : '.formatter.pictureUrl'
+											}" alt="Michael Adams" title="Iron Rod"
+													subtitle=""></LightBoxItem>
+											</LightBox>
+										</detailBox>
+									</Avatar>
+									<Text textAlign="Center" text="Iron Rod" class="sapUiSmallMarginTop"/>
+								</VBox>
+								
+								<VBox alignItems="Center">
+									<Avatar src="{
+											path: 'view>/wood',
+											formatter : '.formatter.pictureUrl'
+											}" 
+											displaySize="XL" 
+											displayShape="Circle">
+										<detailBox>
+											<LightBox>
+												<LightBoxItem imageSrc="{
+											path: 'view>/wood',
+											formatter : '.formatter.pictureUrl'
+											}" alt="Michael Adams" title="Wood for Window/Door"
+													subtitle=""></LightBoxItem>
+											</LightBox>
+										</detailBox>
+									</Avatar>
+									<Text textAlign="Center" text="Wood for Window/Door" class="sapUiSmallMarginTop"/>
+								</VBox>
+								
+									<VBox alignItems="Center">
+									<Avatar src="{
+											path: 'view>/plywood',
+											formatter : '.formatter.pictureUrl'
+											}" 
+											displaySize="XL" 
+											displayShape="Circle">
+										<detailBox>
+											<LightBox>
+												<LightBoxItem imageSrc="{
+											path: 'view>/plywood',
+											formatter : '.formatter.pictureUrl'
+											}" alt="Michael Adams" title="Plywood"
+													subtitle=""></LightBoxItem>
+											</LightBox>
+										</detailBox>
+									</Avatar>
+									<Text textAlign="Center" text="Plywood" class="sapUiSmallMarginTop"/>
+								</VBox>
+								
+								<VBox alignItems="Center">
+									<Avatar src="{
+											path: 'view>/Labour',
+											formatter : '.formatter.pictureUrl'
+											}" 
+											displaySize="XL" 
+											displayShape="Circle">
+										<detailBox>
+											<LightBox>
+												<LightBoxItem imageSrc="{
+											path: 'view>/Labour',
+											formatter : '.formatter.pictureUrl'
+											}" alt="Michael Adams" title="Labour Management"
+													subtitle=""></LightBoxItem>
+											</LightBox>
+										</detailBox>
+									</Avatar>
+									<Text textAlign="Center" text="Labour Management" class="sapUiSmallMarginTop"/>
+								</VBox>
+								
+								
+							</l:content>
+						</l:Grid>
+					</ScrollContainer>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

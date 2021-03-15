@@ -1,0 +1,52 @@
+<core:FragmentDefinition
+  xmlns:l="sap.ui.layout"
+  xmlns:f="sap.ui.layout.form"
+  xmlns:core="sap.ui.core"
+  xmlns="sap.m"
+  >
+  <Dialog
+
+    title="{i18n>create}">
+      <l:Grid
+    defaultSpan="L12 M12 S12"
+    width="auto">
+    <l:content>
+      <f:SimpleForm
+       maxContainerCols="2" layout="ResponsiveGridLayout" minWidth="1024">
+        <f:content>
+          <Label text="{i18n>legalEntity}" required="true"/>
+        <!--  <Input id="inLegalEntity" value="" />-->
+          <ComboBox id="idLegalEntity"
+                placeholder=""
+                change="handleChangeLegEn">
+
+                </ComboBox>
+
+          <Label text="{i18n>year}" required="true" />
+
+          <DatePicker id="inYear" value=""   valueFormat="yyyy" displayFormat="yyyy" class="sapUiSmallMarginBottom"/>
+          <Label text="{i18n>letterType}" required="true"/>
+           <ComboBox id="idLetterType"
+                placeholder=""
+                change="handleChangeLegEn">
+
+                </ComboBox>
+          <Label text="{i18n>date}" required="true"/>
+          <DatePicker id="inDate" value="" valueFormat="yyyy-MM-dd" displayFormat="yyyy-MM-dd" class="sapUiSmallMarginBottom" change="onDateChange"/>
+        </f:content>
+      </f:SimpleForm>
+    </l:content>
+  </l:Grid>
+    <beginButton>
+      <Button
+        text="{i18n>save}"
+        press="handleSave"
+        id="onCreateSave"/>
+    </beginButton>
+    <endButton>
+      <Button
+        text="{i18n>cancel}"
+        press="handleCancel"/>
+    </endButton>
+  </Dialog>
+</core:FragmentDefinition>

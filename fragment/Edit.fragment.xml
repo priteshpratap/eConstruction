@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+  <Dialog title="" id="editFragment" draggable="true" contentWidth="30%">
+    <content>
+      <f:SimpleForm title=""  id="oPositiveForm" maxContainerCols="2"
+        layout="ResponsiveGridLayout" minWidth="1024"></f:SimpleForm>
+      <f:SimpleForm title="" id="oNegetiveForm" maxContainerCols="2" layout="ResponsiveGridLayout" minWidth="1024"></f:SimpleForm>
+    </content>
+    <beginButton>
+      <Button text="OK" press="onMessageClose"></Button>
+    </beginButton>
+  </Dialog>
+</core:FragmentDefinition>
