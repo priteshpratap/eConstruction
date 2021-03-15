@@ -1,6 +1,6 @@
 <mvc:View controllerName="VishwakarmaMart.controller.S1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
 	xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:tnt="sap.tnt" xmlns:l="sap.ui.layout">
-	<Shell id="shell">
+	
 	
 				<Page id="page" class="sapUiContentPadding">
 					<tnt:ToolHeader>
@@ -183,5 +183,5 @@
 					</ScrollContainer>
 				</Page>
 		
-	</Shell>
+	
 </mvc:View>
